@@ -1,0 +1,325 @@
+/*Global styles*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    height: 821px;
+    width: 970px;
+    background: white;
+    position: absolute;
+    z-index: -2;
+}
+
+.dark-blue-text-span {
+    color: rgb(11,104,166);
+}
+
+.teal {
+    text-decoration: none;
+    color: rgb(35,172,192);
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/* Header Styles*/
+
+#header {
+    height: 130px;
+}
+
+#header img {
+    height: 80px;
+    margin: 5px;
+    width: 80px;
+    position: absolute;
+    z-index: 2;
+    display: inline-block;
+}
+
+#header-upper-half{
+    height: 70px;
+    width: 970px;
+    display: inline-block;
+    vertical-align: top;
+    background: white;
+}
+
+#header-upper-half p {
+    display: inline-block;
+    margin-left: 95px;
+    font-size: 40px;
+    margin-top: 20px;
+    color: rgb(71,71,71);
+}
+
+#header-lower-half{
+    height: 60px;
+    width: 970px;
+    background: linear-gradient(rgb(11,104,166), rgb(67,130,176),rgb(11,104,166));
+    display: inline-block;
+}
+
+#header-lower-half p {
+    font-size: 30px;
+    margin: 15px 0px 0px 20px;
+    color: white;
+}
+
+/*Fun with gradient styles start here*/
+
+#gradient-div {
+    height: 150px;
+    width: 970px;
+    background: linear-gradient(rgb(228,228,228), white);
+    display: inline-block;
+    position: absolute;
+    z-index: -1;
+}
+
+/*Left style starts here*/
+
+#left {
+    width: 210px;
+    height: 690px;
+    background: transparent;
+    display: inline-block;
+}
+
+#left p {
+    font-weight: bold;
+}
+
+#left-p1 {
+    margin: 25px 0px 0px 5px;
+    font-size: 16px; 
+}
+
+#red-text {
+    color: red;
+}
+
+#left-p2 {
+    font-size: 14px;
+    margin: 15px 0px 0px 5px;
+}
+
+.left-buttons {
+    margin: 0px 0px 5px 5px;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgb(60,60,60);
+    color: rgb(240,240,240);
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.left-buttons div {
+    font-weight: lighter;
+}
+
+#blue-button {
+    background: linear-gradient(rgb(83,151,198), rgb(18,104,160));
+    margin-top: 20px;
+}
+
+#orange-button{
+    background: linear-gradient(rgb(345,171,67), rgb(255,104,0));
+}
+
+#line {
+    width: 205px;
+    height: 2px;
+    margin: 20px 0px 0px 5px;
+    background: rgb(192,192,192);
+}
+
+/*Ad styles start here*/
+
+#ad {
+   width: 205px; 
+   margin: 20px 0px 0px 5px;
+   height: 330px;
+   box-shadow: 1px 1px 8px rgb(20,20,20);
+   background-image: url(ad_background.png);
+}
+
+#ad-text{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    line-height: 30px;
+    margin: 25px 20px 0px 20px;
+
+}
+
+#left div p {
+    font-weight: lighter;
+}
+
+#ninja {
+    width: 87px;
+    height: 135px;
+    margin: 0px 0px 10px 58px;
+}
+
+#ad button {
+    width: 150px;
+    height: 24px;
+    color: white;
+    background: rgb(0,194,213);
+    border-radius: 5px;
+    margin-left: 23px;
+    border: 1px solid rgb(33,49,55);
+}
+
+/*DONE WITH LEFT WOOO YAY CONGRATS SOZ*/
+
+/*Right styles start here*/
+
+#right {
+    width: 718px;
+    height: 690px;
+    background: transparent;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 30px;
+    padding-right: 5px;
+    overflow: hidden;
+}
+
+/*top styles*/
+
+#right-top {
+    width: 722px;
+    height: 65px;
+    background: transparent;
+    display: inline-block;
+}
+
+#corner-house {
+    height: 65px;
+    width: 506px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#corner-house img {
+    margin-top: 4px;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+}
+
+#corner-house a {
+    text-decoration: none;
+    color: rgb(11,104,166);
+    font-size: 15px;
+}
+
+#phone{
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    margin-top: 10px;
+    vertical-align: top;
+}
+
+#phone-number{
+    height: 70px;
+    width: 167px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#phone-number p {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 10px;
+    color: rgb(137,137,137);
+}
+
+#phone-number span {
+    color: rgb(7,196,227);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#long-line {
+    width: 725px;
+    height: 2px;
+    background: rgb(192,192,192);
+}
+
+#server-client {
+    margin-left: 245px;
+    width: 240px;
+    height: 88px;
+}
+
+/*right text styling starts here*/
+
+h3 {
+    margin: 10px 0px;
+    color: rgb(11,104,166);
+}
+
+ul, ol {
+    margin: 10px 0px 0px 30px;
+}
+
+li{
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+#right-para{
+    font-size: 14px;
+}
+
+/*right text stops here WOOOOO*/
+
+/*Bottom box thingy styles go here*/
+
+#bottom-box {
+    width: 670px;
+    height: 150px;
+    margin-top: 15px;
+    border: 7px solid rgb(0,128,230);
+    padding: 0px 10px;
+    box-shadow: 1px 1px 5px rgb(120,120,120);
+}
+
+#bottom-box img {
+    height: 112px;
+    width: 130px;
+    display: inline-block;
+    margin: 18px 5px 0px 10px;
+}
+
+#bottom-text{
+    height: 110px;
+    display: inline-block;
+    width: 520px;
+    vertical-align: top;
+}
+
+#bottom-text h3 {
+    margin: 18px 0px 7px 15px;
+}
+
+#bottom-text p {
+    margin: 0px 0px 8px 15px;
+}
